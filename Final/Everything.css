@@ -1,0 +1,317 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:'Lato',sans-serif;
+  text-transform: uppercase;
+}
+
+html{
+  color: #555;
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.header{
+  background-image:url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+#header{
+      background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(84, 84, 84, 0.73)),
+      url("/");
+  }
+
+.row{
+  max-width:1140;
+  margin:0 auto;
+}
+
+.row img{
+  height:100px;
+  width:auto;
+}
+
+.hero-text-box{
+  width:1140px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: large;
+  color:white;
+}
+
+a:link{ 
+  border-bottom: transparent;
+  color:white;
+  text-decoration: none;
+}
+
+a:link:hover{
+  border-bottom: 3px solid #cf6d17;
+}
+a{
+  color: white;
+  margin: 25px;
+}
+li{
+  display: inline ;
+  float: left;
+}
+.btn{
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color:#fff;
+}
+
+.btn:hover,btn:active{
+  background-color: #cf6d17;
+  color: #fff;
+
+}
+.btn-full, .btn-ghost{
+  border-radius: 10px;
+  border-color: #cf6d17;
+  color: #cf6d17;
+  backface-visibility: hidden;
+}
+
+.Testimonial{
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(84, 84, 84, 0.73)),
+  url("/OmnifoodContents/back-customers.jpg");
+}
+.column2{
+  margin-left: 125px;
+  width: 25%;
+  height: 35%;
+  border-color: black;
+  padding: 25px;
+display: inline-block;
+position: relative;
+padding-bottom: 20px;
+font-size: 15px;
+color: #f4f4f4;
+}
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    display: inline-block;
+}
+blockquote::before{
+    content: "\201C";
+    font-size: 500%;
+    display: inline-block;
+    position: absolute;
+}
+.column {
+  margin-left: 125px;
+   width: 25%;
+    height: 500px;
+    border-color: black;
+    background-color: white;
+    padding: 25px;
+    display: inline-block;
+   position: relative;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 2px #cac5c5;
+  }
+  li{
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+  }
+  .features{
+    border-top: #555;
+  }
+  .testi{
+    text-align: center;
+    border-bottom: 3px solid #cf6d17;
+    font-size: 50px;
+    color: white;
+  }
+  h3{
+    color: #cf6d17;
+    font-size: 300%;
+    font-weight: 100;
+    margin: 0 auto;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  h4{
+    margin: 0 auto;
+    font-size: 30%;
+    font-weight: 300;
+    border-bottom: 1px solid #555;
+  }
+
+  small{
+    font-size: 20px;
+  }
+  h5{
+    font-size: 50px;
+    margin: 0 auto;
+  }
+.signUp{
+    background-color: #f4f4f4;
+}
+button{
+    background-color: #f4f4f4;
+    border-radius: 10cm;
+    border-color: #cf6d17;
+    color: #cf6d17;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+button:hover{
+    background-color: #cf6d17;
+    color: #f4f4f4;
+}
+img{
+    border-radius: 250px;
+    height: 50px;
+    width: 50px;
+}
+.form{
+  height: 2000px;
+  width: 1500px;
+}
+
+.input[type=text],
+.input[type=email],
+.select,
+.textarea{
+  width: 50%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+.textarea{
+  height: 100px;
+}
+.input[type=checkbox]{
+  margin: 10px 5px 10px 0;
+}
+.footerft{
+  background-color: #555;
+}
+.Links :link{
+  text-decoration: none;
+  color: white;
+}
+.navigation{
+  display: inline-block
+}
+.Links{
+  display: inline-block;
+  margin-left: 30%;
+  font-size: 20px;
+  margin: 0 auto;
+  
+}
+h2{
+  width:1140px;
+  font-size: 60px;
+  margin: 0 auto;
+  border-bottom-color: #cf6d17;
+  border-bottom: 5px;
+}
+input{
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  width: 100px;
+ 
+}
+.submit{
+  background-color: #cf6d17;
+}
+.rows{
+  margin: 0 auto;
+}
+.features2{
+  max-width: 1140px;
+
+}
+
+.features2 h2{
+  text-align: center;
+}
+
+.features2 img{
+  size: 25%;
+  width:25%;
+  margin-left: 10%;
+  float: left;
+}
+
+.features2 link {
+  text-decoration: none;
+}
+
+.btn-app img{
+  height: 50px;
+  width:auto;
+}
+
+.phoneImg{
+ margin-right: 50%;
+}
+
+.bullet h3{
+  color:#e67e22;
+}
+
+#icon1{
+  color: #cf6d17;
+}
+
+.gallery{
+  color: #000;
+}
+.r3{
+  max-width:1140;
+  margin:0 auto;
+}
+
+.flex-container{
+  display: flex;
+  align-items: flex-start;
+  font-size: medium;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  row-gap: 10px;
+  width: fit-content;
+}
+
+.item1{
+  align-self: flex-start;
+}
+
+.item3{
+  align-self: flex-end;
+}
+
+.column4 {
+  float: left;
+  width: 25%;
+}
+
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
